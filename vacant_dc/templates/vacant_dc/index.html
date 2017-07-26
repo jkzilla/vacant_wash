@@ -1,13 +1,23 @@
+
+
 {% load leaflet_tags %}
 <html>
   <head>
     {% leaflet_js %}
     {% leaflet_css %}
+    {% load static %}
+  <title>React Redux Starter Kit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="{% static 'vacant_dc/style.css' %}" />
+  <style media="screen">
+     .leaflet-container-default { width:100%; height:100% }
+  </style>
   </head>
   <body>
-    <h1>Weather Stations</h1>
+    <h1>Vacant DC</h1>
     {% leaflet_map "main" callback="main_map_init" %}
-
+    
     <script type="text/javascript">
         function main_map_init (map, options) {
             // Use Leaflet API here

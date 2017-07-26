@@ -71,6 +71,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'vacant_wash.wsgi.application'
 
+LEAFLET_CONFIG = {
+    # conf here
+    'SPATIAL_EXTENT': (-76.874150, 38.799060, -77.139538, 39.001855),
+    'DEFAULT_CENTER': (38, 77),
+    'DEFAULT_ZOOM': 10
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
@@ -120,3 +126,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')

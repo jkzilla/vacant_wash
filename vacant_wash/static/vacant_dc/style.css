@@ -1,0 +1,8 @@
+
+    .leaflet-container .leaflet-container-default {  /* all maps */
+        max-width: 100%;
+    }
+	body {
+    background: white url("images/background.gif") no-repeat right bottom;
+}
+
