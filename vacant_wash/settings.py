@@ -74,8 +74,8 @@ WSGI_APPLICATION = 'vacant_wash.wsgi.application'
 LEAFLET_CONFIG = {
     # conf here
     'SPATIAL_EXTENT': (-76.874150, 38.799060, -77.139538, 39.001855),
-    'DEFAULT_CENTER': (38.90, -77.50),
-    'DEFAULT_ZOOM': 13
+    'DEFAULT_CENTER': (38.898352, -77.036583),
+    'DEFAULT_ZOOM': 14
 }
 
 # Database

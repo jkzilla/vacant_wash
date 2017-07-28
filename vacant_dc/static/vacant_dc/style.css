@@ -10,6 +10,19 @@ h2 {
     font-family: "arial";     
 }
 
+h3 {    
+	text-align: center;
+    color: white;
+    font-family: "arial";
+}
+
 body {
 	background-color: black;
 }
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
