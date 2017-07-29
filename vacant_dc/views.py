@@ -16,7 +16,7 @@ class IndexView(TemplateView):
 class FormView(TemplateView):
 	template_name = 'vacant_dc/form.html'
 
-# class QueryResults():
+# class QueryResults(generic.DetailView):
 # 	token = os.environ.get('MAPBOX_ACCESS_TOKEN', False)
 # 	if not token:
 # 		print('environment variable MapboxAccessToken must be set')
